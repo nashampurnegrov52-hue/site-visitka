@@ -1,0 +1,322 @@
+* {
+    margin:0;
+    padding: 0;
+}
+html,body {
+  height: 100%;
+}
+header, main, footer {
+    border: black solid 1px;
+}
+#wrapper{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+     width: 100%;
+}
+header{
+    height:120px;  
+    width:1040px;
+    margin: 0 auto;
+    border: 0;
+}
+
+.pink{
+    color: green;
+}
+.foto {
+   width: 500px;
+  height: auto;
+}
+#logo{
+    text-transform: uppercase;
+    text-decoration:none;
+    color:#fff;
+    font-weight: bold;
+    line-height: 100px;
+    font-size: 24px;
+    float: left;
+    margin-right: 50px;
+}
+
+
+main{
+    padding-bottom: 100px;
+    width:1040px;
+    margin: 0 auto;
+    border: 0;
+}
+footer{   
+    margin: -100px auto 0;
+    position: relative;
+    height: 100px;
+    width:1040px;
+    margin: 0 auto;
+    border: 0;
+}
+body{
+    background-color: black;
+    color: white;
+    border: 0;
+}
+.main_img-float{
+    width: 550px;
+    margin-right: 40px;
+    float: left;
+}
+
+#panorama {
+    width: 100%;
+    height: 150px;
+    background: url(../img/1644483391_1-abrakadabra-fun-p-matritsa-zelenie-tsifri-1.jpg) no-repeat center 70%;
+    background-size: cover; 
+}
+.services {
+    padding: 35px 0;
+}
+.services__item {
+    width: 240px;
+    margin-left: 40px;
+    margin-right: 40px;
+    float: left;
+}
+.services__img {
+    width: 170px;
+    display: block;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    height: 170px;
+}
+.footer__block {
+    display: inline-block;
+    width: 335px;
+}
+.footer__icons {
+    display: inline-block;
+    width: 335px;
+    text-align: right;
+}
+.footer__img {
+    width: 50px;
+    margin-left: 10px;
+}
+.contacts__item, .contacts__action {
+    text-align: center;
+    margin-bottom: 35px;
+}
+.contacts__item a {
+    color: green;
+}
+.contacts__action a {
+    color: green;
+}
+.aboutt {
+    text-align: center;
+}
+.aboutt p {
+    text-align: justify;
+}
+#mainnav ul {
+    list-style: none; 
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+    gap: 30px; 
+}
+#mainnav li {
+    display: inline; 
+     display: inline-block;
+
+}
+#mainnav a {
+    text-decoration: none; 
+    text-transform: uppercase;
+}
+#mainnav a:hover {
+    text-decoration: underline;
+}
+.compania {
+    color: green;
+}
+table {
+    border-collapse: collapse;
+     border: 3px solid white;
+      border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+
+
+
+
+td, th {
+    border: 3px solid white;
+    padding: 10px;
+    border-left: none;
+    border-right: none;
+    
+
+}
+.price th:first-child {
+    width: 10%;
+}
+.price th:nth-child(2), .price th:last-child {
+    width: 25%;
+}
+.fix {
+    text-align: center;
+}
+.footer {
+    margin-top: 100px;
+}
+th {
+    border: solid white;
+    border-left: none;
+    border-right: none;
+    
+}
+
+.price tbody tr:nth-child(even) {
+    background-color: gray;
+}
+.contact-form {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-group {
+  margin-bottom: 24px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333333;
+  letter-spacing: 0.3px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 15px;
+  font-family: inherit;
+  color: #333333;
+  background: #f8f9fa;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #4a90d9;
+  background: #ffffff;
+  box-shadow: 0 0 0 3px rgba(74, 144, 217, 0.15);
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #999999;
+}
+
+.form-group select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23666' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  padding-right: 40px;
+
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+  line-height: 1.5;
+}
+
+.submit-button {
+  display: inline-block;
+  width: 100%;
+  padding: 14px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: inherit;
+  color: #ffffff;
+  background: linear-gradient(135deg, #4a90d9, #357abd);
+  border: none;
+  border-radius: 8px;
+  letter-spacing: 0.5px;
+  transition: background 0.3s ease, transform 0.15s ease, box-shadow 0.3s ease;
+  margin-top: 8px;
+}
+
+.submit-button:hover {
+  transform: translateY(-2px);
+}
+
+.submit-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(74, 144, 217, 0.25);
+}
+
+.form-group input:invalid:not(:placeholder-shown),
+.form-group textarea:invalid:not(:placeholder-shown) {
+  border-color: black
+}
+
+.form-group input:valid:not(:placeholder-shown),
+.form-group textarea:valid:not(:placeholder-shown) {
+  border-color: #2ecc71;
+}
+
+@media (max-width: 640px) {
+  .contact-form {
+    margin: 20px 16px;
+    padding: 24px 20px;
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    padding: 10px 14px;
+    font-size: 14px;
+  }
+
+  .submit-button {
+    padding: 12px 24px;
+    font-size: 15px;
+  }
+  }
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.h1--invisible {
+  text-align: center;
+}
+#mainnav li.active a{
+    font-weight: bold;
+    color: green;
+}
+
+
+
+
+
